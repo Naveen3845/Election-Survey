@@ -1,0 +1,108 @@
+** index.html **
+
+<div class="container">
+  <h1 id ="title">Election Survey</h1>
+  <p id ="description"> Help me, I would like to know more details about you!</p>
+<form id="survey-form">
+  <div class="form-control">
+     <label id="name-label">Name:
+     <input id="name" type="text"placeholder="Enter your name" required/>
+    </label>
+ </div>
+
+  <div class="form-control">
+
+      <label id="email-label">Email
+     <input id="email" type="email" placeholder="Enter your email" required/>
+     </label>
+ </div>
+
+  <div class="form-control">
+       <label id="number-label">Age
+      <input id="number" type="number" required min="0" max="100" placeholder="age"/>
+      </label>
+ </div>
+
+<div class="form-control">
+  <p> What is your occupation?</p>
+     <select id="dropdown">
+      <option>student</option>
+      <option>Public-Sector</option>
+      <option>Private-Sector</option>
+      <option>Worker</option>
+      <option>Self-Emp</option>
+  </select>
+</div>
+
+ <div class="form-control">
+   <p> What is your last Degree?</p>
+    <label>8th
+   <input type="Radio" name="Radio-Group"value="8TH"/> 
+   </label>
+    <label>SSC
+   <input type="Radio" name="Radio-Group"value="SSC"/>
+   </label>
+    <label>PUC
+   <input type="Radio" name="Radio-Group"value="PUC"/>
+   </label>
+    <label>Degree
+   <input type="Radio" name="Radio-Group"value="Degree"/> 
+   </label>
+    <label>UG
+   <input type="Radio" name="Radio-Group"value="UG"/>
+   <label>
+       <label>PG
+   <input type="Radio" name="Radio-Group"value="PG"/>
+   </label>
+    <label>Other
+   <input type="Radio" name="Radio-Group"value="Other"/>
+   </label
+</div>
+
+<div class="form-control">
+  <p>Which cards do you have?(You can select more than 1)</p>
+  <label>Aadhar Card <input type="checkbox" value="Aadhar Card"/></label>
+  <label>Ration Card <input type="checkbox" value="Ration Card"/></label>
+  <label> VoterID <input type="checkbox" value="Voter ID"/></label>
+  <label>Driving Lisence <input type="checkbox" value="Driving Lisence"/></label>
+  <label> Passport <input type="checkbox" value="Passport"/></label>
+</div>
+
+<div class="form-control">
+  <p>Contact Details:</p>
+   <textarea>Adress</textarea>
+</div>
+
+<div class="form-control">
+<button id="submit" value="submit"/>submit</button>
+</div>
+
+ </form>
+</div>
+
+** end of undefined **
+
+** stylesheet.css **
+
+body
+{
+display:flex;
+text-align:center;
+font-family:'Teko', san-serif;
+font-size:130%;
+}
+
+.container
+{
+ border:5px double block;
+ padding:10px;
+}
+
+p
+{
+  margin-botton:0;
+  font-weight:bold;
+}
+
+** end of undefined **
+
